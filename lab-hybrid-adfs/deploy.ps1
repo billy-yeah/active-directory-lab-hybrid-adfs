@@ -30,7 +30,7 @@ Import-Module Azure -ErrorAction SilentlyContinue
     # ClientsToDeploy, array, possible values: "7","8","10-1607","10-1511","10-1703"
     # Examples: Single Win7 VM = @("7")
     #           Two Win7, one Win10 Creators = "7","7","10-1703"
-    $clientsToDeploy         = @("7")
+    $clientsToDeploy         = @("11")
     $RDPWidth                = 1920
     $RDPHeight               = 1080
 
