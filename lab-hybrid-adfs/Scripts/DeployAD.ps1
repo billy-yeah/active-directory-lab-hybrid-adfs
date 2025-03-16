@@ -58,8 +58,8 @@ if (!(Test-Path -Path "$($completeFile)$step")) {
                            -IncludeAllSubFeature 
 
     Install-ADDSForest -DomainName $domain `
-                       -DomainMode "Windows2016Domain" `
-                       -ForestMode "Windows2016Domain" `
+                       -DomainMode WinThreshold `
+                       -ForestMode WinThreshold `
                        -Force `
                        -SafeModeAdministratorPassword $smPassword 
 
